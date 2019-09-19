@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/stripe/stripe-ruby
+  revision: 1f80da4b7ac8309be463540c13b396cb6c0a48ea
+  specs:
+    stripe (5.1.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -169,7 +175,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    stripe (5.1.1)
     thor (0.20.3)
     thread_safe (0.3.6)
     tilt (2.0.9)
@@ -214,7 +219,7 @@ DEPENDENCIES
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
-  stripe
+  stripe!
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 3.3.0)
